@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  oklavier:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2026-04-09T01:56:09.5679344+02:00"
+    description: Oklavier - Virtual Workspace Platform (Control Plane)
+    digest: 75149f3d78bd7779d1a13fb3dd6f4a502910543ac5aa84891621311ef60f883c
+    name: oklavier
+    type: application
+    urls:
+    - https://oklavier.github.io/oklavier-helm/oklavier-1.0.2.tgz
+    version: 1.0.2
+  oklavier-agent:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2026-04-09T01:56:09.5679344+02:00"
+    description: Oklavier Agent - Workspace Provisioner for Kubernetes clusters
+    digest: 19030a5ba7e36308560daedb760fce76b65c2b62490528b6b144d76bc0a6a16b
+    name: oklavier-agent
+    type: application
+    urls:
+    - https://oklavier.github.io/oklavier-helm/oklavier-agent-1.0.2.tgz
+    version: 1.0.2
+generated: "2026-04-09T01:56:09.5669344+02:00"
